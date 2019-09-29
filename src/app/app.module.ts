@@ -6,18 +6,26 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HighlightDirective } from './highlight.directive';
 import { TimeCountPipe } from './time-count.pipe';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { RepoProfileComponent } from './repo-profile/repo-profile.component';
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     HighlightDirective,
-    TimeCountPipe
+    TimeCountPipe,
+    UserProfileComponent,
+    RepoProfileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
