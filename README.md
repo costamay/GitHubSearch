@@ -1,6 +1,54 @@
-# Githubsearch
+:satisfied:
+#  AngularQuotes
+#### This project helps people to search other peoples github repos, Sunday September 29 2019 
+#### By **OPIYO TITUS**&trade;
+
+## Description
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+
+## Project live site
+  This is the live .[ Click for the demo]()
+
+  ![Image](src/assets/demo.png)
+
+  ## Technologies Used
+* HTML-For Building Mark Up pages
+* CSS-For styling User Interface
+* Bootsrap-For making webpage responsive
+* Angular 8;
+* Typscript
+
+## Behavior Driven Development
+<table>
+    <tr>
+      <th>Behavior</th> 
+      <th>Input</th> 
+      <th>Output</th>   
+    </tr>
+    <tr>
+        <td>on load</td>
+        <td>scroll through </td>
+        <td>reveals more on the repos</td>
+    </tr> 
+    <tr>
+        <td>on search bar put a username</td>
+        <td>['costamay']</td>
+        <td>['the profile loads']</td>
+    </tr>
+    <tr>
+        <td>scroll  view profile</td>
+        <td>click the view profile</td>
+        <td>takes your to the github profile</td>
+    </tr>
+    <tr>
+        <td>on repos</td>
+        <td>click button</td>
+        <td>takes you to the repo on github</td>
+    </tr>
+       
+</table>
+
 
 ## Development server
 
@@ -21,6 +69,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Support and contact details
+contact me @ titusouko@gmail.com
+### License
+The project is under[MIT license](/blob/master/LICENSE)
+Copyright &copy; 2019.All rigths reserved
 
 ## Further help
 
