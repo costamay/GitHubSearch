@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cardo|Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cardo|Concert+One|Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cardo|Concert+One|Notable|Oleo+Script&display=swap');
+.kit h4{
+    font-family: 'Notable', sans-serif;
+}
+
+h6{
+    font-family: 'Alfa Slab One', cursive;
+}
