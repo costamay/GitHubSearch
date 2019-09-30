@@ -1,4 +1,4 @@
-<div class="jumbotron text-center text-white bg-dark m-0">
+<div class="jumbotron me text-center text-white bg-info m-0">
     <h1>Github Search</h1>
     <hr>
     <p>An application that allows you to search for github users and repositories</p>
@@ -7,19 +7,23 @@
       <br>
     <app-searc-form (emitSearch)="searchUser($event)"></app-searc-form>
   
-  <div class="row">
+  <div class="row kit">
     <div class="col-md-3"></div>
-    <div class="col-md-6">
+    <div class="col-md-6" mx-auto>
           <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">{{user.login}}</h4>
+            </div>
             
-            <img src='{{user.avatar_url}}' alt="avatar" class=" img-card-top b-0 m-o" height="0px" width="auto">
+            <img src='{{user.avatar_url}}' alt="avatar" class=" rounded-circle w-auto img-card-top " >
             <div class="card-body text-center">
-            <h4 class="card-title">{{user.login}}</h4>
+            
             
               <p>Followers: {{user.followers}}
               Following: {{user.following}} Public Repos: {{user.public_repos}} <p>
             
             <p> Created {{user.created_at|date}}</p>
+           
           </div>
   
             <div class="text-center mb-3">
@@ -32,26 +36,32 @@
       </div>
      
     
-  
+  <div class="row">
+    <div class="col-12 h-100">
   <div class="repo mt-4 ">
     <h2 class="text-center text-white"> REPOSITORIES</h2>
-    <div class="card-columns">
+    <div class="card-columns ">
     <div *ngFor="let repo  of repo">
-      <div class="card h-100 ">
+      <div class="card  ">
           <div class="view view-cascade gradient-card-header">
           <h6 class="card-header">
               {{repo.name| uppercase}} <br>
           </h6>
         
         
-        <p appHighlight class="card-text">{{repo.description}}</p>
-        <a class="btn btn-success m-2" href="{{repo.html_url}}" target="_blank">View project on github</a>
+        <p class="wao" appHighlight class="card-text">{{repo.description}}</p>
+        <a class="btn btn-outline-primary m-2 text-center" href="{{repo.html_url}}" target="_blank"><i class="fa fa-github fa-2x"></i>View project on github</a>
       </div>
     </div>
   </div>
     </div>
   </div>
   </div>
+  </div>
+  </div>
+  
+    
+  
     
     
     
