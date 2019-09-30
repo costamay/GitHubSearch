@@ -1,31 +1,33 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http'
+
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { HighlightDirective } from './highlight.directive';
-import { TimeCountPipe } from './time-count.pipe';
-import { UserProfileComponent } from './user-profile/user-profile.component';
-import { RepoProfileComponent } from './repo-profile/repo-profile.component';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+import { SearcFormComponent } from './searc-form/searc-form/searc-form.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar/navbar.component';
+import { NotFoundComponent } from './not-found/not-found/not-found.component';
+import { DateCountPipe } from './date-count.pipe';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent,
-    HighlightDirective,
-    TimeCountPipe,
-    UserProfileComponent,
-    RepoProfileComponent
+    SearcFormComponent,
+    HomeComponent,
+    NavbarComponent,
+    NotFoundComponent,
+    DateCountPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    NgProgressModule.forRoot(),
-    NgProgressHttpClientModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
