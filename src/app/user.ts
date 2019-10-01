@@ -10,6 +10,9 @@ export class User {
         public created_at: Date,
         public public_repos: number,
         public html_url: any,
+        public email:any,
+        
       ){}
         
 }
+
