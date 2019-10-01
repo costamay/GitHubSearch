@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Project live site
   This is the live .[ Click for the demo]( https://costamay.github.io/GitHubSearch/)
 
-  ![Image](src/assets/git.png)
+  ![Image](src/assets/wan.png)
 
   ## Technologies Used
 * HTML-For Building Mark Up pages
