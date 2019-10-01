@@ -18,7 +18,7 @@ export class GitHttpServiceService {
 
   constructor(public http:HttpClient) { 
     this.user = new User('','','','','',0,0,new Date,0,'','');
-    this.repo = new Repository('', '', '');
+    this.repo = new Repository('', '', '','');
   }
 
   searchUsers(searchTerm:string){
