@@ -8,7 +8,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
 ## Project live site
-  This is the live .[ Click for the demo]()
+  This is the live .[ Click for the demo]( https://costamay.github.io/GitHubSearch/)
 
   ![Image](src/assets/git.png)
 
