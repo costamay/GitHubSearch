@@ -17,7 +17,7 @@ export class GitHttpServiceService {
   repo:Repository;
 
   constructor(public http:HttpClient) { 
-    this.user = new User('','','','','',0,0,new Date,0,'');
+    this.user = new User('','','','','',0,0,new Date,0,'','');
     this.repo = new Repository('', '', '');
   }
 
@@ -34,6 +34,7 @@ export class GitHttpServiceService {
   created_at: Date;
   public_repos: number;
   html_url: string;
+  email:string;
     }
     let searchPoint = 'https://api.github.com/users/' + searchTerm + '?access_token=' + environment.GITAPIKEY;
     console.log(searchPoint);
@@ -64,6 +65,7 @@ export class GitHttpServiceService {
      name: string;
      description: string;
      html_url: string;
+     update_at: string;
      
     }
 
