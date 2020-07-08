@@ -1,5 +1,4 @@
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { UserProfileComponent } from './user-profile/user-profile.component';
+
 import { TimeCountPipe } from './time-count.pipe';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -14,7 +13,7 @@ import { NavbarComponent } from './navbar/navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found/not-found.component';
 import { DateCountPipe } from './date-count.pipe';
 import { HighlightDirective } from './highlight.directive';
-import { RepoProfileComponent } from './repo-profile/repo-profile.component';
+
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
@@ -30,9 +29,7 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
     DateCountPipe,
     HighlightDirective,
     TimeCountPipe,
-    UserProfileComponent,
-    RepoProfileComponent,
-    LandingPageComponent
+    
   ],
   imports: [
     BrowserModule,

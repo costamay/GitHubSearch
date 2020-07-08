@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  accesstoken:"94af8fc63f808eb3158dd65ea1a4598ff80e0dba",
-  GITAPIKEY: "94af8fc63f808eb3158dd65ea1a4598ff80e0dba"
+  accesstoken:"d7753c324da2db7aa898d5ee63bcb47e3b37134f ",
+  GITAPIKEY: "d7753c324da2db7aa898d5ee63bcb47e3b37134f "
 };
